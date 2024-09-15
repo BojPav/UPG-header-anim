@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2D3242;
+}
+
+.bgnd {
+  background-color: #2D3242;
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+}
+
+.abu-dabhi {
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+  opacity: 0;
+}
+
+.abu-dabhi img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+.first_bgnd {
+  width: 1440px;
+  height: 900px;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.second_bgnd {
+  width: 1440px;
+  height: 900px;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+svg {
+  overflow: visible;
+  width: 85%;
+  height: auto;
+  z-index: 3;
+}
